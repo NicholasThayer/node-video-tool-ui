@@ -1,0 +1,19 @@
+
+
+.box__dragndrop,
+.box__uploading,
+.box__success,
+.box__error {
+  display: none;
+}
+
+.box.upload-box {
+  height: 40vmin;
+  background-color: white;
+  outline: 2px dashed black;
+  outline-offset: -10px;
+}
+
+.box.upload-box .box__dragndrop {
+  display: inline;
+}
